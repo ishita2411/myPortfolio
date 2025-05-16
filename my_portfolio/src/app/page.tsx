@@ -2,6 +2,8 @@
 // import styles from "./page.module.css";
 'use client';
 
+import AboutMe from "@/components/AboutMe";
+import Experience from "@/components/Experience";
 import Introduction from "@/components/Introduction";
 import NavBar from "@/components/Navbar";
 
@@ -15,6 +17,8 @@ export default function Home() {
     <div>
       <NavBar />
       <Introduction />
+      <AboutMe />
+      <Experience />
     </div>
   );
 }

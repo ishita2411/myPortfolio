@@ -1,9 +1,10 @@
 .introduction{
     font-family: "Monaco", monospace;
+    padding: 10px;
 }
 
 .introduction_emoji{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 h1{

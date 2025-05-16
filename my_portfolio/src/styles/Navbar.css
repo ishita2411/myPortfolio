@@ -8,9 +8,24 @@ main{
 h1{
     text-align: center;
 }
+.nav-container {
+    padding-bottom: 60px;
+}
+/* .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  } */
 .navbar ul{
     list-style-type: none;
-    background-color: hsl(0, 0%, 25%);
+    width: 100%;
+    position: fixed;
+    background-color: #af8cba;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -30,31 +45,18 @@ h1{
     text-align: center;
     color: white;
 }
-.navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
+.navbar li:hover{
+    /* background-color: hsl(0, 0%, 10%); */
+    background-color: #c7aece;
 }
 .navbar li{
     float: left;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Monaco", monospace;
     color: white;
-    padding: 20px;
+    padding: 18px;
     
 }
-.extra_padding{
+/* .extra_padding{
     padding-left: 90px;
-}
-
-
-/* .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #f8f8f8;
-  }
-  
-  .nav-left a,
-  .nav-right a {
-    text-decoration: none;
-    color: #333;
-  } */
+} */
