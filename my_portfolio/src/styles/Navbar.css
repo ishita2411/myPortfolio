@@ -11,6 +11,9 @@ h1{
 .nav-container {
     padding-bottom: 60px;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* .navbar ul {
     list-style-type: none;
     margin: 0;

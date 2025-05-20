@@ -12,7 +12,7 @@ export default function Introduction() {
 
       {/* <img src={"/download.jpeg"} width="50" height="50" style="vertical-align: middle;"/>
       <span style="vertical-align: middle;">Text next to image</span> */}
-            <img alt="hi emoji" src={"/download.jpeg"} width="50" height="50" /> 
+            <img alt="hi emoji" src={"/wave.jpeg"} width="50" height="50" /> 
             <span className="introduction_emoji"> Hi , I'm</span>
             
           </div>

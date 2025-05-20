@@ -1,7 +1,9 @@
 'use client';
 import "../styles/Navbar.css";
 import Link from 'next/link';
+import { useRouter } from "next/navigation";
 export default function NavBar() {
+  const router = useRouter();
   return (
 
 
@@ -15,7 +17,8 @@ export default function NavBar() {
             <li><a href="index.html">Home</a></li>
             <li><a href="#aboutme">About</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a onClick={()=>{router.push('/#experience')}}>Contact</a></li>
+            <li onClick={()=>{router.push('/#experience')}}>Projects</li>
         </ul>
     </nav>
         </div>

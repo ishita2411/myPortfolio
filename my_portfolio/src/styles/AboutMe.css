@@ -14,21 +14,18 @@
   }
   
   .about-description {
-    font-family: "Monaco", monospace;
+    /* font-family: "Monaco", monospace; */
+    font-family: "Roboto", sans-serif;
+
     color: var(--slate);
-    padding-top: 30px;
+    padding-top: 10px;
     max-width: 600px;
-    font-size: 17px;
+    font-size: 19px;
+    /* word-spacing: 10px; */
+    line-height: 1.6;
     text-align: justify;
     margin: 0;
   }
-  
-  .about-description a,
-  .about-description b {
-    font-size: 21px;
-    font-weight: bold;
-  }
-  
   .about-image {
     padding-left: 40px;
   }
