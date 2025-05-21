@@ -3,6 +3,7 @@
 'use client';
 
 import AboutMe from "@/components/AboutMe";
+import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Introduction from "@/components/Introduction";
 import NavBar from "@/components/Navbar";
@@ -18,6 +19,7 @@ export default function Home() {
       <NavBar />
       <Introduction />
       <AboutMe />
+      <Education />
       <Experience />
     </div>
   );

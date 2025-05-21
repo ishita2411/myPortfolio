@@ -15,7 +15,7 @@ export default function AboutMe() {
             <br></br><br></br>Outside of work, I enjoy reading books and dancing.
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/me.png"} />
+              <img alt="Ishita Kundaliya" src={"/me.png"} />
             </div>
           </div>
          

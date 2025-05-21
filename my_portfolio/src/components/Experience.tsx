@@ -2,19 +2,20 @@
 import "../styles/Experience.css";
 import { experiences } from "@/data/myExperience";
 export default function Experience() {
-  console.log(experiences);
   let keyval=1;
-  console.log(keyval);
   keyval=keyval+1;
-    console.log(keyval);
   return (
     // <div id='about'></div>
     <div id="experience">
-      <ul className="experience">
-        {experiences.map((experience) => (
-          <li key={experience.company}>
-            <div className="company">{experience.company} </div>
+      {experiences.map((experience) => (
+        
+        <div key={experience.company} className="experience">
+            
+            <div className="company">
+            <img alt="company_logo" src={experience.logo}  className="company-logo" /> 
+            {experience.company} </div>
             <div className="title-location-date">
+            {/* <img alt="hi emoji" src={"/wave.jpeg"} width="50" height="50" />  */}
               <div className="title">{experience.title}</div>
               <div className="date">
                 {experience.startDate} - {experience.endDate}
@@ -22,14 +23,14 @@ export default function Experience() {
             </div>
 
             <div className="skills">Skills: {experience.skills}</div>
-            <ul className="description">
-              {experience.description?.map((description) => (
-                <li key={keyval++}>{description}</li>
-              ))}
-            </ul>
-          </li>
-        ))}
-      </ul>
+
+          <ul className="description">
+            {experience.description?.map((desc, index) => (
+              <li key={index}>{desc}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 }

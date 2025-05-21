@@ -1,7 +1,6 @@
-import { title } from "process";
-
 export const experiences = [
   {
+    logo : "/hpeLogo.png",
     title: "Software Engineer",
     company: "Hewlett Packard Enterprise",
     location: "Houston, Texas, USA",
@@ -19,6 +18,7 @@ export const experiences = [
     ],
   },
   {
+    logo : "/cognizantLogo.jpeg",
     title: "Programmer Analyst",
     company: "Cognizant",
     location: "Hyderabad, India",
@@ -32,13 +32,14 @@ export const experiences = [
     ],
   },
   {
+    logo : "/cantileverLabsLogo.jpeg",
     title: "Software Engineer Intern",
     company: "Cantilever Labs ",
     location: "Hyderabad, India",
     startDate: "Oct 2020",
     endDate: "Dec 2020",
     skills: "Java, Servlets, HTML, PHP , MySQL, Matlab, OpenCV",
-    desscription: [
+    description: [
       "Spearheaded the development of a “Bus Ticket Booking System” using Java, Java Servlets, JavaScript, HTML, PHP and SQL. The project includes 2 modules- Administrator and User module. Admin can add, delete, update and view bus details. Users can book, cancel reservations and view all the bus details.",
       "Contributed to the development of a “Drowsiness Alert System” using OpenCV , Fuzzy Logic to detect and track the movement of a person in a video using OpenCV and Matlab. If the eye remains closed for more than 2-3 seconds then the person would be detected as drowsy and a loud sound alert is sent.",
     ],
