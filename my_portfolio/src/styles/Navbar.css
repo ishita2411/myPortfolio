@@ -14,16 +14,7 @@ h1{
 html{
     scroll-behavior: smooth;
 }
-/* .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  } */
+
 .navbar ul{
     list-style-type: none;
     width: 100%;
@@ -33,25 +24,19 @@ html{
     margin: 0px;
     overflow: hidden;
 }
-/* .navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 20px;
-    display: block;
-    text-align: center;
-} */
+
 .navbar a{
     
     text-decoration: none;
-    /* padding: 20px; */
     display: block;
     text-align: center;
     color: white;
 }
+
 .navbar li:hover{
-    /* background-color: hsl(0, 0%, 10%); */
     background-color: #c7aece;
 }
+
 .navbar li{
     float: left;
     font-size: 15px;
@@ -60,6 +45,3 @@ html{
     padding: 18px;
     
 }
-/* .extra_padding{
-    padding-left: 90px;
-} */

@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    logo : "/hpeLogo.png",
+    logo: "/hpeLogo.png",
     title: "Software Engineer",
     company: "Hewlett Packard Enterprise",
     location: "Houston, Texas, USA",
@@ -18,7 +18,7 @@ export const experiences = [
     ],
   },
   {
-    logo : "/cognizantLogo.jpeg",
+    logo: "/cognizantLogo.jpeg",
     title: "Programmer Analyst",
     company: "Cognizant",
     location: "Hyderabad, India",
@@ -32,7 +32,7 @@ export const experiences = [
     ],
   },
   {
-    logo : "/cantileverLabsLogo.jpeg",
+    logo: "/cantileverLabsLogo.jpeg",
     title: "Software Engineer Intern",
     company: "Cantilever Labs ",
     location: "Hyderabad, India",

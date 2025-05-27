@@ -11,11 +11,12 @@ export default function NavBar() {
     <div className="nav-container">
     <nav className="navbar">
         <ul>
-            <li><a href="#introduction">&nbsp;&nbsp;Ishita Kundaliya</a></li>
-            <li><Link href="#experience">some</Link></li>
+            <li><a href="#">&nbsp;&nbsp;Ishita Kundaliya</a></li>
+            {/* <li><Link href="#experience">some</Link></li> */}
             <li className="extra_padding"> | </li>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#introduction">Home</a></li>
             <li><a href="#aboutme">About</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a onClick={()=>{router.push('/#experience')}}>Contact</a></li>
             <li onClick={()=>{router.push('/#experience')}}>Projects</li>
