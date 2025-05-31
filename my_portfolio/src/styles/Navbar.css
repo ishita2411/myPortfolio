@@ -34,7 +34,8 @@ html{
 }
 
 .navbar li:hover{
-    background-color: #c7aece;
+    /* background-color: #c7aece; */
+    background-color: #ad8ab9;
 }
 
 .navbar li{

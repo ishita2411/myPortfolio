@@ -18,8 +18,7 @@ export default function NavBar() {
             <li><a href="#aboutme">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a onClick={()=>{router.push('/#experience')}}>Contact</a></li>
-            <li onClick={()=>{router.push('/#experience')}}>Projects</li>
+            <a href ="#projects"><li>Projects</li></a>
         </ul>
     </nav>
         </div>
