@@ -10,6 +10,8 @@ h1{
 }
 .nav-container {
     padding-bottom: 60px;
+    z-index: 9999;
+    position: fixed;
 }
 html{
     scroll-behavior: smooth;
@@ -20,6 +22,8 @@ html{
     width: 100%;
     position: fixed;
     background-color: #af8cba;
+    background-color: #ad8ab9;
+
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -34,8 +38,8 @@ html{
 }
 
 .navbar li:hover{
-    /* background-color: #c7aece; */
-    background-color: #ad8ab9;
+    background-color: #c7aece;
+    /* background-color: #ad8ab9; */
 }
 
 .navbar li{

@@ -1,0 +1,33 @@
+#skills{
+    min-height: 30vh;
+    margin: auto;
+    max-width: 600px;
+    padding: 100px;
+    font-family: "Roboto", sans-serif;
+    
+    /* font-family: "Monaco", monospace; */
+  }
+
+  .skills-container {
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    padding: 17px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  margin: 0;
+  }
+  
+  .skills-heading {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .all-skills {
+    line-height: 1.3;
+  }

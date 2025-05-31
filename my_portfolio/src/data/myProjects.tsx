@@ -1,11 +1,6 @@
 export const myProjects = [
   
-  {
-    name: "Barcode Generator and Inventory Management System",
-    description:
-      "Developed an application using Google Cloud Platform, Firebase, Firestore, Python to generate barcodes for products and manage inventory. The application allows users to add, update, and delete products, and generate barcodes for each product. It also provides a search functionality to find products by name or barcode.",
-    githubLink: "https://github.com/ishita2411/car_galaxy_inventory"
-  },
+  
 
   {
     name: "Recipe Generation from Videos",
@@ -20,10 +15,28 @@ export const myProjects = [
     githubLink: "https://github.com/ishita2411/predicting-performance-of-movie-using-sentiment-analysis-on-youtube-movie-comments"
   },
   {
+    name: "Barcode Generator and Inventory Management System",
+    description:
+      "Developed an application using Google Cloud Platform, Firebase, Firestore, Python to generate barcodes for products and manage inventory. The application allows users to add, update, and delete products, and generate barcodes for each product. It also provides a search functionality to find products by name or barcode.",
+    githubLink: "https://github.com/ishita2411/car_galaxy_inventory"
+  },
+  {
     name: "My Portfolio",
     description:
       "A personal portfolio website(this website) build from scratch to showcase my skills and projects. It has been built using Next.js, typescript, Github pages",
     githubLink: "https://github.com/ishita2411/myPortfolio",
+  },
+  {
+    name: "Social Media Application - The I-Site",
+    description:
+      "Developed a social media application using the MERN stack (MongoDB, Express.js, React.js, Node.js) with features like user authentication, post creation, commenting, and liking posts. The application allows users to connect with friends, share updates, and interact through comments and likes.",
+    githubLink: "https://github.com/ishita2411/social-media-application-the-I-site"
+  },
+  {
+    name: "Missing Person Detection",
+    description:
+      "Developed a web application using Python, Flask, Convolution Neural Networks aiming to identify any missing person through a live video feed or by uploading an individual’s picture.",
+    githubLink: "https://github.com/ishita2411/Missing-Person-Detection"
   },
   
   {
@@ -32,12 +45,6 @@ export const myProjects = [
       "Developed an Android application which detected the digits drawn on the screen and guessed the correct digit with 90% accuracy using Convolutional Neural Networks. The application also has an OCR feature which can scan physically written text and converts it to text.",
     githubLink:
       "https://github.com/ishita2411/Handwritten-digit-recognition-and-OCR",
-  },
-  {
-    name: "Bus Ticket Management System",
-    description:
-      "Developed a Bus Ticket Management System using Java, Servlets, HTML, PHP and MySQL. The project includes 2 modules- Administrator and User module. Admin can add, delete, update and view bus details. Users can book, cancel reservations and view all the bus details.",
-    githubLink: "https://github.com/ishita2411/BTMS"
   },
   {
     name: "Drowsiness Detection System",
@@ -52,16 +59,10 @@ export const myProjects = [
     githubLink: "https://github.com/ishita2411/Meeting-Summarizer"
   },
   {
-    name: "Missing Person Detection",
+    name: "Bus Ticket Management System",
     description:
-      "Developed a web application using Python, Flask, Convolution Neural Networks aiming to identify any missing person through a live video feed or by uploading an individual’s picture.",
-    githubLink: "https://github.com/ishita2411/Missing-Person-Detection"
-  },
-  {
-    name: "Social Media Application - The I-Site",
-    description:
-      "Developed a social media application using the MERN stack (MongoDB, Express.js, React.js, Node.js) with features like user authentication, post creation, commenting, and liking posts. The application allows users to connect with friends, share updates, and interact through comments and likes.",
-    githubLink: "https://github.com/ishita2411/social-media-application-the-I-site"
+      "Developed a Bus Ticket Management System using Java, Servlets, HTML, PHP and MySQL. The project includes 2 modules- Administrator and User module. Admin can add, delete, update and view bus details. Users can book, cancel reservations and view all the bus details.",
+    githubLink: "https://github.com/ishita2411/BTMS"
   },
   
 

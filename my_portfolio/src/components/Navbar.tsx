@@ -14,10 +14,11 @@ export default function NavBar() {
             <li><a href="#">&nbsp;&nbsp;Ishita Kundaliya</a></li>
             {/* <li><Link href="#experience">some</Link></li> */}
             <li className="extra_padding"> | </li>
-            <li><a href="#introduction">Home</a></li>
-            <li><a href="#aboutme">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <a href="#introduction"><li>Home</li></a>
+            <a href="#aboutme"><li>About</li></a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#education"><li>Education</li></a>
+            <a href="#experience"><li>Experience</li></a>
             <a href ="#projects"><li>Projects</li></a>
         </ul>
     </nav>

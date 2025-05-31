@@ -1,15 +1,36 @@
-.introduction{
-    /* margin-top: 100px; */
-    font-family: "Monaco", monospace;
-    padding: 80px;
+.introduction {
+  /* margin-top: 100px; */
+  font-family: "Monaco", monospace;
+  /* padding: 80px; */
+  padding-top: 80px;
+  justify-content: center;
+  text-align: center;
 }
 
-.introduction_emoji{
-    font-size: 35px;
+.say-hello {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 35px;
 }
 
-h1{
-    font-size: 60px;
-    font-family: "Monaco", monospace;
-   
+h1 {
+  font-size: 60px;
+  font-family: "Monaco", monospace;
+}
+
+.connect {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.linkedin{
+    margin-left: 13px;
+    margin-right: 13px;
+
 }
