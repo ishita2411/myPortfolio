@@ -1,13 +1,11 @@
 #education {
   min-height: 50vh;
-  /* padding-left: 100px; */
   margin: auto;
   max-width: 1000px;
   padding-top: 100px;
   font-family: "Roboto", sans-serif;
-
-  /* font-family: "Monaco", monospace; */
 }
+
 .heading {
   font-size: 50px;
   font-weight: 500;
@@ -39,14 +37,17 @@
   font-size: 13px;
   padding-bottom: 3px;
 }
+
 .gpa {
   margin-left: 35px;
   font-size: 13px;
   padding-bottom: 17px;
 }
+
 .degree {
   min-width: 500px;
 }
+
 .course-work {
   padding: 17px;
   border: 2px solid lightgray;

@@ -1,7 +1,5 @@
 .introduction {
-  /* margin-top: 100px; */
   font-family: "Monaco", monospace;
-  /* padding: 80px; */
   padding-top: 80px;
   justify-content: center;
   text-align: center;
@@ -25,12 +23,9 @@ h1 {
   justify-content: center;
   text-align: center;
   align-items: center;
-
   gap: 10px;
 }
 
-.linkedin{
-    margin-left: 13px;
-    margin-right: 13px;
-
+.connect a {
+  margin-left: 15px;
 }

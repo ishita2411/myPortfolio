@@ -1,52 +1,53 @@
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
-main{
-    margin-left: 20px;
-    margin-right: 20px;
+
+main {
+  margin-left: 20px;
+  margin-right: 20px;
 }
-h1{
-    text-align: center;
+
+h1 {
+  text-align: center;
 }
+
 .nav-container {
-    padding-bottom: 60px;
-    z-index: 9999;
-    position: fixed;
-}
-html{
-    scroll-behavior: smooth;
+  padding-bottom: 60px;
+  z-index: 9999;
+  position: fixed;
 }
 
-.navbar ul{
-    list-style-type: none;
-    width: 100%;
-    position: fixed;
-    background-color: #af8cba;
-    background-color: #ad8ab9;
-
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+html {
+  scroll-behavior: smooth;
 }
 
-.navbar a{
-    
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    color: white;
+.navbar ul {
+  list-style-type: none;
+  width: 100%;
+  position: fixed;
+  background-color: #af8cba;
+  background-color: #ad8ab9;
+
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
 }
 
-.navbar li:hover{
-    background-color: #c7aece;
-    /* background-color: #ad8ab9; */
+.navbar a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: white;
 }
 
-.navbar li{
-    float: left;
-    font-size: 15px;
-    font-family: "Monaco", monospace;
-    color: white;
-    padding: 18px;
-    
+.navbar li:hover {
+  background-color: #c7aece;
+}
+
+.navbar li {
+  float: left;
+  font-size: 15px;
+  font-family: "Monaco", monospace;
+  color: white;
+  padding: 18px;
 }

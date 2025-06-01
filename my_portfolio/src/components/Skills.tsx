@@ -13,18 +13,30 @@ export default function Skills() {
         <hr></hr>
         <div className="all-skills">
           <div className="skill">
+            <img src="/laptop.svg" alt="Languages" width="30" height="30" />
             Python, Java, JavaScript, Typescript, C, C++, HTML, CSS, Bash
             Scripting
           </div>
-          <div className="skill">React.js, Next.js, Justand, Redux</div>
           <div className="skill">
+            <img
+              src={"/file-code.svg"}
+              alt="Frameworks"
+              width="30"
+              height="30"
+            />
+            React.js, Next.js, Justand, Redux
+          </div>
+          <div className="skill">
+            <img src="/server.svg" alt="Frameworks" width="30" height="30" />
             Django, Spring Boot, Node.js, Express.js, Flask
           </div>
           <div className="skill">
-            SQL - MySQL, PostgreSQL, NoSQL - MongoDB, Firebase
+            <img src="/database.svg" alt="Databases" width="30" height="30" />
+            SQL - MySQL, PostgreSQL, NoSQL - MongoDB, Firestore
           </div>
           <div className="skill">
-            Google Cloud Platform, Firestore, AWS, Git, Jenkins, Docker,
+            <img src="/code-compare.svg" alt="cloud" />
+            Google Cloud Platform, Firebase, AWS, Git, Jenkins, Docker,
             Kubernetes{" "}
           </div>
         </div>

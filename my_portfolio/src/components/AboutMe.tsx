@@ -1,5 +1,6 @@
 "use client";
 import "../styles/AboutMe.css";
+
 export default function AboutMe() {
   return (
     <div id="aboutme">

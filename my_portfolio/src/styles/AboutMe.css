@@ -1,6 +1,3 @@
-/* #about{
-
-} */
 #aboutme {
   min-height: 50vh;
   margin: auto;
@@ -14,18 +11,16 @@
 }
 
 .about-description {
-  /* font-family: "Monaco", monospace; */
   font-family: "Roboto", sans-serif;
-
   color: var(--slate);
   padding-top: 10px;
   max-width: 600px;
   font-size: 19px;
-  /* word-spacing: 10px; */
   line-height: 1.5;
   text-align: justify;
   margin: 0;
 }
+
 .about-image {
   padding-left: 40px;
 }
@@ -60,11 +55,6 @@
   .about-description {
     font-size: 18px;
     text-align: justify;
-  }
-
-  .about-description a,
-  .about-description b {
-    font-size: 17px;
   }
 
   .about-image img {

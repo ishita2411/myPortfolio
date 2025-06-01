@@ -1,6 +1,7 @@
 "use client";
 import "../styles/Experience.css";
 import { experiences } from "@/data/myExperience";
+
 export default function Experience() {
   return (
     <div id="experience">
