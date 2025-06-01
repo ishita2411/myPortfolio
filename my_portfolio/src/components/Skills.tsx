@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@mui/material";
 import "../styles/Skills.css";
 import Image from "next/image";
 

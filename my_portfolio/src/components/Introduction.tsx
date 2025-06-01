@@ -7,7 +7,12 @@ export default function Introduction() {
   return (
     <div className="introduction" id="introduction">
       <div className="say-hello">
-        <img alt="hi emoji" src={"/wave.jpeg"} width="50" height="50" />{" "}
+        <Image
+          alt="hi emoji"
+          src={"/wave.jpeg"}
+          width="50"
+          height="50"
+        />{" "}
         &nbsp;Hi , I&apos;m
       </div>
 
