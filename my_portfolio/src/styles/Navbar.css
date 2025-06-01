@@ -51,3 +51,10 @@ html {
   color: white;
   padding: 18px;
 }
+
+.resume-link {
+  float: right;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}

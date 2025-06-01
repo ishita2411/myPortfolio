@@ -1,6 +1,8 @@
 "use client";
 import "../styles/Experience.css";
 import { experiences } from "@/data/myExperience";
+import Image from "next/image";
+
 
 export default function Experience() {
   return (
@@ -11,11 +13,14 @@ export default function Experience() {
         {experiences.map((experience) => (
           <div key={experience.company} className="experience">
             <div className="company">
-              <img
+              <Image
                 alt="company_logo"
                 src={experience.logo}
+                width={25}
+                height={25}
                 className="company-logo"
               />
+             
               {experience.company}{" "}
             </div>
             <div className="title-location-date">

@@ -1,5 +1,6 @@
 "use client";
 import "../styles/Navbar.css";
+import Image from "next/image";
 
 export default function NavBar() {
   return (
@@ -28,6 +29,20 @@ export default function NavBar() {
           <a href="#projects">
             <li>Projects</li>
           </a>
+          <div className="resume-link">
+          <a  href="/resume.pdf" target="_blank">
+          <li>
+            <Image
+              src="/download.svg"
+              alt="download"
+              width={15}
+              height={15}
+            />
+            
+            &nbsp;Show Resume</li>
+          </a>
+          </div>
+          
         </ul>
       </nav>
     </div>

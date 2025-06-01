@@ -1,6 +1,7 @@
 "use client";
 import "../styles/Education.css";
 import { myEducation } from "@/data/myEducation";
+import Image from "next/image";
 
 export default function Education() {
   return (
@@ -11,7 +12,13 @@ export default function Education() {
         {myEducation.map((education) => (
           <div key={education.school} className="education">
             <div className="uni-name">
-              <img alt="logo" src={education.logo} className="uni-logo" />
+              <Image
+                src={education.logo}
+                alt="logo"
+                width={25}
+                height={25}
+                className="uni-logo"
+              />
               {education.school}
             </div>
             <div className="degree-location-date">

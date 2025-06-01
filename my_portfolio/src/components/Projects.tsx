@@ -1,6 +1,7 @@
 "use client";
 import "../styles/Projects.css";
 import { myProjects } from "@/data/myProjects";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -12,8 +13,14 @@ export default function Projects() {
           <div className="card" key={project.name}>
             <div className="github_link">
               {project.githubLink && (
-                <a href={project.githubLink}>
-                  <img alt="logo" src="/github.svg" className="uni-logo" />
+                <a href={project.githubLink} target="_blank">
+                  <Image
+                    alt="github logo"
+                    src="/github.svg"
+                    width={35}
+                    height={35}
+                    className="github-logo"
+                  />
                 </a>
               )}
             </div>

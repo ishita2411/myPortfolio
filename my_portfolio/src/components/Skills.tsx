@@ -1,46 +1,55 @@
 "use client";
 
+import { Button } from "@mui/material";
 import "../styles/Skills.css";
+import Image from "next/image";
 
 export default function Skills() {
+  const handleClick = () => {
+    window.open("/resume.pdf", "_blank");
+  };
+
   return (
     <div id="skills">
       <div className="skills-container">
         <div className="skills-heading">
-          <img src="/skills.png" alt="Skills" width="40" height="40" />
+          <Image src="/skills.png" alt="skills icon" width={40} height={40} />
           Skills
         </div>
         <hr></hr>
+        <br></br>
         <div className="all-skills">
           <div className="skill">
-            <img src="/laptop.svg" alt="Languages" width="30" height="30" />
+            <Image src="/laptop.svg" alt="Languages" width="20" height="20" />
             Python, Java, JavaScript, Typescript, C, C++, HTML, CSS, Bash
             Scripting
           </div>
           <div className="skill">
-            <img
+            <Image
               src={"/file-code.svg"}
               alt="Frameworks"
-              width="30"
-              height="30"
+              width="20"
+              height="20"
             />
             React.js, Next.js, Justand, Redux
           </div>
           <div className="skill">
-            <img src="/server.svg" alt="Frameworks" width="30" height="30" />
+            <Image src="/server.svg" alt="Frameworks" width="20" height="20" />
             Django, Spring Boot, Node.js, Express.js, Flask
           </div>
           <div className="skill">
-            <img src="/database.svg" alt="Databases" width="30" height="30" />
+            <Image src="/database.svg" alt="Databases" width="20" height="20" />
             SQL - MySQL, PostgreSQL, NoSQL - MongoDB, Firestore
           </div>
           <div className="skill">
-            <img src="/code-compare.svg" alt="cloud" />
+            <Image src="/code-compare.svg" alt="cloud" width="20" height="20" />
             Google Cloud Platform, Firebase, AWS, Git, Jenkins, Docker,
-            Kubernetes{" "}
+            Kubernetes
           </div>
         </div>
       </div>
+      <div className="show-resume">
+      <button onClick={handleClick}>Show Resume</button></div>
     </div>
   );
 }

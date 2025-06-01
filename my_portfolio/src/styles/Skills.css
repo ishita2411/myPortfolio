@@ -2,7 +2,9 @@
   min-height: 30vh;
   margin: auto;
   max-width: 600px;
-  padding: 100px;
+  padding-top: 100px;
+  /* padding: 100px; */
+  padding-bottom: 70px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -33,7 +35,22 @@
 }
 
 .skill img {
-  width: 20px;
-  height: 20px;
   margin-right: 10px;
+}
+
+.show-resume{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.show-resume button{
+  background-color: #ad8ab9;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
 }
