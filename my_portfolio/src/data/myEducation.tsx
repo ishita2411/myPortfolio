@@ -15,8 +15,8 @@ export const myEducation = [
     school: "Sreenidhi Institute of Science and Technology",
     location: "Hyderabad, India",
     degree: "B.Tech in Computer Science Engineering",
-    startDate: "Aug 2022",
-    endDate: "Dec 2023",
+    startDate: "Aug 2017",
+    endDate: "May 2021",
     gpa: "8.4/10.0",
     courseWork:
       "Programming Languages : C, C++, Java, Python, Data Structures and Algorithms, Operating Systems, Computer Networks, Database Management Systems, Software Engineering, Web Technologies, Computer Organization and Architecture, Theory of Computation, Design and Analysis of Algorithms, Object Oriented Programming, Machine Learning",
